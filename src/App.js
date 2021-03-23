@@ -1,7 +1,7 @@
 import "./styles.css";
 //import Counter from "./Counter";
-//import Cursos from "./Cursos.js";
-import Props from "./Props.js";
+import Cursos from "./Cursos.js";
+//import Props from "./Props.js";
 
 // Const es un tipo de declaracion de variable
 // que nos dice que la variable es la misma
@@ -76,16 +76,10 @@ const courses = [
   }
 ];
 
-const props = {
-  firstName: "José",
-  lastName: "Armenta",
-  age: 26
-};
-
 export default function App() {
   return (
     <div>
-      <Props props={props} />
+      <Cursos courses={courses} />
     </div>
   );
 }
