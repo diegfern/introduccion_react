@@ -5,7 +5,9 @@ import "./styles.css";
 //import Notas from "./Notas.js";
 //import Conditional2 from "./Conditional2.js"
 //import Conditional from "./Conditional.js";
-import Telefono from "./Telefono.js";
+//import Telefono from "./Telefono.js";
+//import Asincrono from './Asincrono.js';
+import Rest from "./Rest.js";
 
 // Const es un tipo de declaracion de variable
 // que nos dice que la variable es la misma
@@ -86,8 +88,10 @@ export default function App() {
       {/*<Notas notes={notes} />
       <Conditional>
       <Conditional2 state="Encendido" />
-      */}
       <Telefono />
+       <Asincrono />
+      */}
+      <Rest />
     </div>
   );
 }

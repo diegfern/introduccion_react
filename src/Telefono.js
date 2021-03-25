@@ -34,7 +34,13 @@ const Telefono = () => {
       return;
     }
 
-    if (persons.filter((person) => person.number === newNumber).length === 1) {
+    // Funciones filter, map, some, reduce, forEach
+
+    // Filter es una funcion de js
+    // que me permite FILTRAR los objetos
+    // que cumplan la condicion de adentro.
+
+    if (persons.filter((person) => person.number === newNumber).length > 0) {
       //console.log("Número duplicado.");
       alert("Numero Duplicado.");
       return;
