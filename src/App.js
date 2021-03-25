@@ -1,7 +1,11 @@
 import "./styles.css";
 //import Counter from "./Counter";
-import Cursos from "./Cursos.js";
+//import Cursos from "./Cursos.js";
 //import Props from "./Props.js";
+//import Notas from "./Notas.js";
+//import Conditional2 from "./Conditional2.js"
+//import Conditional from "./Conditional.js";
+import Telefono from "./Telefono.js";
 
 // Const es un tipo de declaracion de variable
 // que nos dice que la variable es la misma
@@ -10,7 +14,7 @@ import Cursos from "./Cursos.js";
 // Let es un tipo de declaracion de variable
 // que nos dice que la variable PUEDE cambiar
 // en el transcurso de su vida
-/*const notes = [
+const notes = [
   {
     id: 1,
     content: "HTML es muy facil",
@@ -29,7 +33,7 @@ import Cursos from "./Cursos.js";
     date: "2020-01-11",
     important: false
   }
-];*/
+];
 
 const courses = [
   {
@@ -79,7 +83,11 @@ const courses = [
 export default function App() {
   return (
     <div>
-      <Cursos courses={courses} />
+      {/*<Notas notes={notes} />
+      <Conditional>
+      <Conditional2 state="Encendido" />
+      */}
+      <Telefono />
     </div>
   );
 }
